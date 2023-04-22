@@ -32,7 +32,7 @@ services:
     environment:
       APP_ENV: "prod"
       APP_DEBUG: "False"
-      APP_PORT: 5000
+      APP_PORT: 5010
       MONGODB_DATABASE: flaskdb
       MONGODB_USERNAME: root
       MONGODB_PASSWORD: password
@@ -47,7 +47,7 @@ services:
     volumes:
       - './flask-app:/flask-app'
     ports:
-      - "5000:5000"
+      - "5010:5010"
     networks:
       services-network:
         aliases:
