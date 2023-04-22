@@ -10,6 +10,6 @@ RUN pip install -r requirements.txt
 COPY . /flask-app/
 RUN cd /flask-app/
 
-EXPOSE 5000
+EXPOSE 5010
 
 CMD ["python", "hello.py"]

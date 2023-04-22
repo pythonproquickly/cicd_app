@@ -1,11 +1,11 @@
-Python/Django + JWT auth backend and React/Redux/Saga frontend
-==============================================================
+Python + JWT auth backend and React/Redux/Saga frontend
+=======================================================
 
 1 Technical Stack
 
 1.1 Server container
 
-	- Falsk + Node for React + Node for Angular 8 + MongoDB + Nginx
+	- Flask + Node for React + Node for Angular 8 + MongoDB + Nginx
 
 1.2 Back-end
 
