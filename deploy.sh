@@ -1,11 +1,11 @@
 #!/bin/sh
 export DOCKER_DEFAULT_PLATFORM=linux/arm64
 # Stop previous dockers
-docker-compose stop
-docker-compose down
+docker compose stop
+docker compose down
 
 # Run dockers as daemon
-docker-compose up -d --build
+docker compose up -d --build
 
 # Remove caches
 # yes | docker container prune

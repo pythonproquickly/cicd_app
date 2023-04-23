@@ -1,5 +1,5 @@
-# docker-compose build
-# docker-compose up -d web
+# docker compose build
+# docker compose up -d web
 
 version: '3.5'
 
